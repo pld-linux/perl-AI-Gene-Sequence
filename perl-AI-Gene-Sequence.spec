@@ -1,3 +1,4 @@
+#
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
 #
@@ -41,12 +42,14 @@ mv AI lib
 %{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"AI::Gene::Sequence")' \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
