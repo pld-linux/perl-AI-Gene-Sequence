@@ -33,7 +33,7 @@ mkdir lib
 mv AI lib
 
 %build
-perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"AI::Gene::Sequence")'
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"AI::Gene::Sequence")'
 %{__make}
 %{!?_without_tests:%{__make} test}
 
