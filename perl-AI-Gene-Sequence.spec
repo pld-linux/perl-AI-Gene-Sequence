@@ -5,7 +5,7 @@ Summary:	A base class for storing and mutating genetic sequences
 Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.21
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -29,9 +29,11 @@ kodu, mo¿e byæ sprawdzona poprawno¶æ sk³adni).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+mkdir lib
+mv AI lib
 
 %build
-perl Makefile.PL
+perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"AI::Gene::Sequence")'
 %{__make}
 %{!?_without_tests:%{__make} test}
 
