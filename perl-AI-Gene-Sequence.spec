@@ -5,7 +5,7 @@ Summary:	A base class for storing and mutating genetic sequences
 Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.21
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,8 +21,11 @@ is a way to ensure that genes created by mutations remain useful
 (for instance, if a gene gives rise to code, it can be tested for
 correct syntax).
 
-# %description -l pl
-# TODO
+%description -l pl
+Ta klasa udostêpnia ogólne metody do tworzenia i mutacji sekwencji
+genetycznych. Zawiera ró¿ne mutacje, aby zapewniæ, ¿e geny stworzone
+przez mutacje pozostan± u¿yteczne (na przyk³ad, je¶li gen da przyrost
+kodu, mo¿e byæ sprawdzona poprawno¶æ sk³adni).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
