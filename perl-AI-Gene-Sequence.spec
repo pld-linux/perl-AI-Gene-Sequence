@@ -9,7 +9,7 @@ Summary:	A base class for storing and mutating genetic sequences
 Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.21
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
