@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	AI
-%define	pnam	Gene-Sequence
+%define		pdir	AI
+%define		pnam	Gene-Sequence
 Summary:	A base class for storing and mutating genetic sequences
 Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-AI-Gene-Sequence
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a class which provides generic methods for the creation and
-mutation of genetic sequences.  Various mutations are provided as
+mutation of genetic sequences. Various mutations are provided as
 is a way to ensure that genes created by mutations remain useful
 (for instance, if a gene gives rise to code, it can be tested for
 correct syntax).
