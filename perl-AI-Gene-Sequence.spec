@@ -6,7 +6,8 @@ Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.21
 Release:	4
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fd1d371995359e2ab17ddc04afb18df5
