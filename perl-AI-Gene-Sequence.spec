@@ -7,7 +7,7 @@
 %define	pnam	Gene-Sequence
 Summary:	A base class for storing and mutating genetic sequences
 Summary(pl):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-AI-Gene-Sequence
 Version:	0.21
 Release:	5
 # same as perl
