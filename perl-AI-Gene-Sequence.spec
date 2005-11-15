@@ -22,10 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a class which provides generic methods for the creation and
-mutation of genetic sequences. Various mutations are provided as
-is a way to ensure that genes created by mutations remain useful
-(for instance, if a gene gives rise to code, it can be tested for
-correct syntax).
+mutation of genetic sequences. Various mutations are provided as is a
+way to ensure that genes created by mutations remain useful (for
+instance, if a gene gives rise to code, it can be tested for correct
+syntax).
 
 %description -l pl
 Ta klasa udostêpnia ogólne metody do tworzenia i mutacji sekwencji
