@@ -6,7 +6,7 @@
 %define		pdir	AI
 %define		pnam	Gene-Sequence
 Summary:	A base class for storing and mutating genetic sequences
-Summary(pl.UTF-8):   Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
+Summary(pl.UTF-8):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-AI-Gene-Sequence
 Version:	0.21
 Release:	5
