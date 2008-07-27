@@ -9,7 +9,7 @@ Summary:	A base class for storing and mutating genetic sequences
 Summary(pl.UTF-8):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-AI-Gene-Sequence
 Version:	0.21
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
