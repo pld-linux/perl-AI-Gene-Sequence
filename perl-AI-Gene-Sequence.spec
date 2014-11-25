@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	AI
 %define		pnam	Gene-Sequence
+%include	/usr/lib/rpm/macros.perl
 Summary:	A base class for storing and mutating genetic sequences
 Summary(pl.UTF-8):	Klasa bazowa do przechowywania i mutowania sekwencji genetycznych
 Name:		perl-AI-Gene-Sequence
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	82023860faf60163eaef71c8f9a3c592
+URL:		http://search.cpan.org/dist/AI-Gene-Sequence/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
